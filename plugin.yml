@@ -1,0 +1,15 @@
+name: ChangeServerSign
+main: ChangeServerSign\CSS
+version: 1.0.0
+api: [2.0.0]
+load: STARTUP
+author: TSRTW
+description: ChangeServerSign
+website: http://www.cattery.cn
+permissions:
+ changeserversign.sign.build:
+  description: "only op can build the sign"
+  default: op
+ changeserversign.sign.tp:
+  description: "Allows the user tp another server"
+  default: true
